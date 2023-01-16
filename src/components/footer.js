@@ -1,6 +1,6 @@
 import React from 'react'
 
-function footer() {
+function Footer() {
     return (
         <div>
             <h2>Copyright &#169; Your Website 2022</h2>
@@ -8,4 +8,4 @@ function footer() {
     )
 }
 
-export default footer
+export default Footer
