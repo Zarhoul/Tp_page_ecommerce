@@ -1,13 +1,12 @@
 import React from 'react'
 
-function title() {
+function Title() {
     return (
         <div>
-            <h1>Shop in style</h1>
-            <p>With this Shop homeoage template
-            </p>
+            <div>Shop in style</div>
+            <div>With this Shop homepage template</div>
         </div>
     )
 }
 
-export default title
+export default Title
