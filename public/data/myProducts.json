@@ -1,6 +1,6 @@
 [
-    {"id": 1, "title": "Fancy Product", "oldPrice": "", "currentPrice": "$80.00", "state": ""}, 
-    {"id": 2, "title": "Special Item", "oldPrice": "$20.00", "currentPrice": "$18.00", "state": "sale"},
-    {"id": 3, "title": "Sale Item", "oldPrice": "$50.00", "currentPrice": "$25.00", "state": "sale"},
-    {"id": 4, "title": "Popular Item", "oldPrice": "", "currentPrice": "$40.00", "state": ""}
+    {"id": 1, "title": "Fancy Product", "oldPrice": "", "currentPrice": "$80.00", "state": "", "image": "./Images/phone1.jpg"}, 
+    {"id": 2, "title": "Special Item", "oldPrice": "$20.00", "currentPrice": "$18.00", "state": "Sale", "image": "./Images/phone2.jpeg"},
+    {"id": 3, "title": "Sale Item", "oldPrice": "$50.00", "currentPrice": "$25.00", "state": "Sale", "image": "./Images/phone3.jpg"},
+    {"id": 4, "title": "Popular Item", "oldPrice": "", "currentPrice": "$40.00", "state": "", "image": "./Images/phone4.jpg"}
 ]
