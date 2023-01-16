@@ -1,8 +1,21 @@
 import React from 'react'
+import styled from 'styled-components'
 
 function Header() {
+    const Wrapper = styled.div`
+    background-color:#f8f9fb;
+    width:100wh;
+    height :80px
+    display: flex;
+    flex-direction:coloumn;
+    `
+    const list = styled.ul`
+    list-style : none;
+    display : flex;
+
+    `
     return (
-        <div>
+        <Wrapper>
             <div className="logo">
                 <h1>Start Bootstrapp</h1>
             </div>
@@ -13,7 +26,7 @@ function Header() {
                     <li className="link">
                         <select name="" id="">
                             <option value="Shop">Shop</option>
-                        </select> 
+                        </select>
                     </li>
                 </ul>
             </div>
@@ -23,7 +36,7 @@ function Header() {
                     cart
                 </button>
             </div>
-        </div>
+        </Wrapper>
     )
 }
 
