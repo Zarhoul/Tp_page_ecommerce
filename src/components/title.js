@@ -21,6 +21,11 @@ function Title() {
     const Wrapper = styled.section`
         padding: 4em;
         background: #24242b;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     `;
 
     return (
