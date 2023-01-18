@@ -1,9 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-function Title() {
-
-    const Title = styled.h1`
+const Title = styled.h1`
         font-size: 3em;
         text-align: center;
         color: #FFFFFF;
@@ -28,6 +26,7 @@ function Title() {
         flex-direction: column;
     `;
 
+function Banner() {
     return (
         <Wrapper>
             <Title>Shop in style</Title>
@@ -36,4 +35,4 @@ function Title() {
     )
 }
 
-export default Title
+export default Banner

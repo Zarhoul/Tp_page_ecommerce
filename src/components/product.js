@@ -46,6 +46,10 @@ const Wrapper = styled.section`
         top: 5px;
     `;
 
+    const EmptyBadge = styled.span`
+        visibility: hidden;
+    `;
+
     const CardBody = styled.div`
         height: 50%;
         display: flex;
@@ -91,7 +95,7 @@ function Product() {
                         <ImageWrapper>
                             <Image src={elem.image} alt="Product image" />
                             <Badge key={index}>
-                                {elem.state !== undefined ? elem.state : null}
+                                {elem.state !== undefined ? elem.state : <EmptyBadge />}
                             </Badge>
                         </ImageWrapper>
                         <CardBody>

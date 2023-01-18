@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import Product from './components/product';
 import Header from './components/header';
-import Title from './components/title';
+import Banner from './components/banner';
 import Footer from './components/footer';
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
   return (
     <Container>
       <Header />
-      <Title />
+      <Banner />
       <Product />
       <Footer />
     </Container>
